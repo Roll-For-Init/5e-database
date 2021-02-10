@@ -13,10 +13,12 @@ You should be able to build locally and then run the local Docker image.
 
 ## Without Docker
 First you need to make sure you have [MongoDB installed locally.](https://docs.mongodb.com/manual/installation/)
+Also ensure that you have the [MongoDB Database tools installed.](https://www.mongodb.com/try/download/database-tools?tck=docs_databasetools)
+Lastly, ensure that both are hooked up to your PATH variable and that you ```npm install```
 
 You can load this data locally by running:
 ```
-MONGODB_URI=mongodb://localhost/5e-database npm run db:refresh
+$env:MONGODB_URI=${MongoDB Connection String} npm run db:refresh
 ```
 
 # API Issues

@@ -57,7 +57,7 @@ files.filter(filename => regex.test(filename))
         //             --jsonArray 
         //             --drop
         console.log(`importing ${data_name}...`);
-        const exec_string = `mongoimport --uri ${mongodb_uri}`
+        const exec_string = `mongoimport --uri "${mongodb_uri}"`
             + ` --collection ${collection_name}`
             + ` --file ${filepath}`
             + ' --jsonArray'
