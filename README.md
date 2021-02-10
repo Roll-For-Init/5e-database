@@ -18,7 +18,7 @@ Lastly, ensure that both are hooked up to your PATH variable and that you ```npm
 
 You can load this data locally by running:
 ```
-$env:MONGODB_URI=${MongoDB Connection String} npm run db:refresh
+$env:MONGODB_URI="connectionString" npm run db:refresh
 ```
 
 # API Issues
