@@ -1,3 +1,18 @@
+# How to set things up
+First, make sure you have a .env file with MONGODB_URI=[your connection string]. It should take the format of "mongodb+srv://\[user]:\[password]@\[cluster].xhpae.mongodb.net/\[database]?retryWrites=true&w=majority". Make sure the quotes are in place! Then, just run:
+
+```npm run db:refresh --env-file=.env```
+
+Where .env is whatever your .env file is named. Mine is simply named ".env". This ensures that the mongodb atlas database is up to date with what's in this repository. Next, install Docker--make sure that it is for the Windows 10 Home Edition if you have Windows 10 Home. Once Docker is up and running, run from within the project directory: 
+
+```docker build -t roll-for-init/5e-database .```
+
+Then, to run the database, 
+
+```docker run roll-for-init/5e-database```
+
+And proceed to the API.
+
 # 5e-database
 ![Build Status](https://github.com/bagelbits/5e-database/workflows/5e%20Database%20CI/badge.svg?branch=main)
 [![Discord](https://img.shields.io/discord/656547667601653787)](https://discord.gg/TQuYTv7)

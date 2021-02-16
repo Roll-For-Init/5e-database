@@ -12,7 +12,7 @@ RUN apt-get update; apt-get -y install curl
 RUN curl -sL https://deb.nodesource.com/setup_14.x | bash
 RUN apt-get install -y nodejs
 
-ENV MONGODB_URI mongodb://localhost/5e-database
+ENV MONGODB_URI ${MONGODB_URI}
 
 ## Add code
 COPY . /data/db2
