@@ -24,3 +24,14 @@ jobs:
       - name: Check for new commits
         if: steps.sync.outputs.has_new_commits
         run: echo "There were new commits."
+      - name: Checkout main
+        if: steps.sync.outputs.has_new_commits
+        uses: actions/checkout@v2
+        with:
+          ref: main
+      - name: Create Pull Request
+        if: steps.sync.outputs.has_new_commits
+        uses: peter-evans/create-pull-request@v3.8.2
+        with:
+          branch: pull-requester
+          delete-branch: true 
