@@ -9,6 +9,10 @@ Then, to run the database,
 
 ```docker run rollforinit/5e-database```
 
+Don't forget to push the new build to the hub! You can do so by pressing "push to Hub" in the client or by running
+
+```docker push rollforinit/5e-database```
+
 # 5e-database
 ![Build Status](https://github.com/bagelbits/5e-database/workflows/5e%20Database%20CI/badge.svg?branch=main)
 [![Discord](https://img.shields.io/discord/656547667601653787)](https://discord.gg/TQuYTv7)
