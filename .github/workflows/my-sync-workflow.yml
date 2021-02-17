@@ -1,0 +1,26 @@
+on:
+  schedule:
+    - cron:  '0 7 * * 1,3,5'
+    # scheduled at 07:00 every Mon, Wed, Fri.
+  workflow_dispatch:
+
+jobs:
+  upstream_sync_and_pull_request:
+    runs-on: ubuntu-latest
+    name: Creates a pull request automatically with any upstream changes
+
+    steps:
+      - name: Checkout clean
+        uses: actions/checkout@v2
+        with:
+          ref: clean
+      - name: Fork Sync With Upstream
+        id: sync
+        uses: aormsby/Fork-Sync-With-Upstream-action@v2.3
+        with:
+          upstream_repository: 5e-bits/5e-database
+          upstream_branch: main
+          target_branch: clean
+      - name: Check for new commits
+        if: steps.sync.outputs.has_new_commits
+        run: echo "There were new commits."
