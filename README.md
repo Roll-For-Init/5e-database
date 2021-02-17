@@ -1,9 +1,7 @@
 # How to set things up -- admin
-First, make sure you have a .env file with MONGODB_URI=[your connection string]. It should take the format of "mongodb+srv://\[user]:\[password]@\[cluster].xhpae.mongodb.net/\[database]?retryWrites=true&w=majority". Make sure the quotes are in place! Then, just run:
+First, make sure you have a .env file with MONGODB_URI=[your connection string]. It should take the format of "mongodb+srv://\[user]:\[password]@\[cluster].xhpae.mongodb.net/\[database]?retryWrites=true&w=majority". Make sure that there are no quotes! Your .env file should be named ".env". This ensures that the mongodb atlas database is up to date with what's in this repository. 
 
-```npm run db:refresh --env-file=.env```
-
-Where .env is whatever your .env file is named. Mine is simply named ".env". This ensures that the mongodb atlas database is up to date with what's in this repository. Next, install Docker--make sure that it is for the Windows 10 Home Edition if you have Windows 10 Home. Once Docker is up and running, run from within the project directory: 
+Next, install Docker--make sure that it is for the Windows 10 Home Edition if you have Windows 10 Home. Once Docker is up and running, run from within the project directory: 
 
 ```docker build -t rollforinit/5e-database .```
 
