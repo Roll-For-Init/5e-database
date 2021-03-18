@@ -122,6 +122,10 @@
                 "quantity": 1
             }
         ],
+        "starting_currency": {
+            "quantity": 15,
+            "unit": "gp"
+        },
         "starting_equipment_options": [
             {
                 "choose": 1,
