@@ -1,17 +1,9 @@
-# How to set things up -- admin
-First, make sure you have a .env file with MONGODB_URI=[your connection string]. It should take the format of "mongodb+srv://\[user]:\[password]@\[cluster].xhpae.mongodb.net/\[database]?retryWrites=true&w=majority". Make sure that there are no quotes! Your .env file should be named ".env". This ensures that the mongodb atlas database is up to date with what's in this repository. 
+# How to run, quick and dirty
+Make sure you have your mongodb uri. "mongodb+srv://\[user]:\[password]@\[cluster].xhpae.mongodb.net/\[database]?retryWrites=true&w=majority". Make sure that there are no quotes! put this in dbrefresh under mongodb_uri and do NOT push this change.
 
-Next, install Docker--make sure that it is for the Windows 10 Home Edition if you have Windows 10 Home. Once Docker is up and running, run from within the project directory: 
+Then run: 
 
-```docker build -t rollforinit/5e-database .```
-
-Then, to run the database, 
-
-```docker run rollforinit/5e-database```
-
-Don't forget to push the new build to the hub! You can do so by pressing "push to Hub" in the client or by running
-
-```docker push rollforinit/5e-database```
+```npm run db:refresh```
 
 # 5e-database
 ![Build Status](https://github.com/bagelbits/5e-database/workflows/5e%20Database%20CI/badge.svg?branch=main)
