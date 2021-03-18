@@ -2,8 +2,9 @@ const { execSync } = require('child_process');
 const fs = require('fs');
 
 // check the environment variable is set
-const mongodb_uri = process.env.MONGODB_URI;
+const mongodb_uri = "mongodb+srv://admin:adminpass@rollforinit.xhpae.mongodb.net/ruleset?retryWrites=true&w=majority";
 if (mongodb_uri === undefined) {
+    console.error("uri undefined");
     const localhost_uri_example = 'mongodb://localhost/5e-database';
     console.error(
         'MONGODB_URI must be defined before running the script:'
@@ -16,7 +17,6 @@ if (mongodb_uri === undefined) {
         + `\n       set MONGODB_URI=${localhost_uri_example} && npm run db:refresh\n`);
     process.exit(1);
 }
-
 // check mongoimport can be found and executed
 try {
     execSync('mongoimport --version');

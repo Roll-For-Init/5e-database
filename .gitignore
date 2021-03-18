@@ -6,3 +6,5 @@ named-*
 /.idea
 
 .env
+
+/scripts/dbRefresh.js
