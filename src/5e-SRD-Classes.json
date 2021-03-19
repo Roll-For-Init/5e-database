@@ -155,13 +155,16 @@
       }
     ],
     "class_levels": "/api/classes/barbarian/levels",
-    "subclasses": [
-      {
-        "index": "berserker",
-        "name": "Berserker",
-        "url": "/api/subclasses/berserker"
-      }
-    ],
+    "subclasses": {
+      "subclass_options": [
+        {
+          "index": "berserker",
+          "name": "Berserker",
+          "url": "/api/subclasses/berserker"
+        }
+      ],
+      "level": 3
+    },
     "url": "/api/classes/barbarian"
   },
   {
@@ -470,13 +473,16 @@
       }
     ],
     "class_levels": "/api/classes/bard/levels",
-    "subclasses": [
-      {
-        "index": "lore",
-        "name": "Lore",
-        "url": "/api/subclasses/lore"
-      }
-    ],
+    "subclasses": {
+      "subclass_options": [
+        {
+          "index": "lore",
+          "name": "Lore",
+          "url": "/api/subclasses/lore"
+        }
+      ],
+      "level": 3
+    },
     "spellcasting": {
       "level": 1,
       "spellcasting_ability": {
@@ -758,13 +764,16 @@
       }
     ],
     "class_levels": "/api/classes/cleric/levels",
-    "subclasses": [
-      {
-        "index": "life",
-        "name": "Life",
-        "url": "/api/subclasses/life"
-      }
-    ],
+    "subclasses": {
+      "subclass_options": [
+        {
+          "index": "life",
+          "name": "Life",
+          "url": "/api/subclasses/life"
+        }
+      ],
+      "level": 1
+    },
     "spellcasting": {
       "level": 1,
       "spellcasting_ability": {
@@ -1035,13 +1044,16 @@
       }
     ],
     "class_levels": "/api/classes/druid/levels",
-    "subclasses": [
-      {
-        "index": "land",
-        "name": "Land",
-        "url": "/api/subclasses/land"
-      }
-    ],
+    "subclasses": {
+      "subclass_options": [
+        {
+          "index": "land",
+          "name": "Land",
+          "url": "/api/subclasses/land"
+        }
+      ],
+      "level": 2
+    },
     "spellcasting": {
       "level": 1,
       "spellcasting_ability": {
@@ -1314,13 +1326,16 @@
       }
     ],
     "class_levels": "/api/classes/fighter/levels",
-    "subclasses": [
-      {
-        "index": "champion",
-        "name": "Champion",
-        "url": "/api/subclasses/champion"
-      }
-    ],
+    "subclasses": {
+      "subclass_options": [
+        {
+          "index": "champion",
+          "name": "Champion",
+          "url": "/api/subclasses/champion"
+        }
+      ],
+      "level": 3
+    },
     "url": "/api/classes/fighter"
   },
   {
@@ -1330,164 +1345,158 @@
     "proficiency_choices": [
       {
         "choose": 1,
-        "type": "proficiencies",
+        "type": "proficiency",
         "from": [
-          {
-            "index": "alchemists-supplies",
-            "name": "Alchemist's supplies",
-            "url": "/api/proficiencies/alchemists-supplies"
-          },
-          {
-            "index": "brewers-supplies",
-            "name": "Brewer's supplies",
-            "url": "/api/proficiencies/brewers-supplies"
-          },
-          {
-            "index": "calligraphers-supplies",
-            "name": "Calligrapher's supplies",
-            "url": "/api/proficiencies/calligraphers-supplies"
-          },
-          {
-            "index": "carpenters-tools",
-            "name": "Carpenter's tools",
-            "url": "/api/proficiencies/carpenters-tools"
-          },
-          {
-            "index": "cartographers-tools",
-            "name": "Cartographer's tools",
-            "url": "/api/proficiencies/cartographers-tools"
-          },
-          {
-            "index": "cobblers-tools",
-            "name": "Cobbler's tools",
-            "url": "/api/proficiencies/cobblers-tools"
-          },
-          {
-            "index": "cooks-utensils",
-            "name": "Cook's utensils",
-            "url": "/api/proficiencies/cooks-utensils"
-          },
-          {
-            "index": "glassblowers-tools",
-            "name": "Glassblower's tools",
-            "url": "/api/proficiencies/glassblowers-tools"
-          },
-          {
-            "index": "jewelers-tools",
-            "name": "Jeweler's tools",
-            "url": "/api/proficiencies/jewelers-tools"
-          },
-          {
-            "index": "leatherworkers-tools",
-            "name": "Leatherworker's tools",
-            "url": "/api/proficiencies/leatherworkers-tools"
-          },
-          {
-            "index": "masons-tools",
-            "name": "Mason's tools",
-            "url": "/api/proficiencies/masons-tools"
-          },
-          {
-            "index": "painters-supplies",
-            "name": "Painter's supplies",
-            "url": "/api/proficiencies/painters-supplies"
-          },
-          {
-            "index": "potters-tools",
-            "name": "Potter's tools",
-            "url": "/api/proficiencies/potters-tools"
-          },
-          {
-            "index": "smiths-tools",
-            "name": "Smith's tools",
-            "url": "/api/proficiencies/smiths-tools"
-          },
-          {
-            "index": "tinkers-tools",
-            "name": "Tinker's tools",
-            "url": "/api/proficiencies/tinkers-tools"
-          },
-          {
-            "index": "weavers-tools",
-            "name": "Weaver's tools",
-            "url": "/api/proficiencies/weavers-tools"
-          },
-          {
-            "index": "woodcarvers-tools",
-            "name": "Woodcarver's tools",
-            "url": "/api/proficiencies/woodcarvers-tools"
-          },
-          {
-            "index": "disguise-kit",
-            "name": "Disguise kit",
-            "url": "/api/proficiencies/disguise-kit"
-          },
-          {
-            "index": "forgery-kit",
-            "name": "Forgery kit",
-            "url": "/api/proficiencies/forgery-kit"
-          }
-        ]
-      },
-      {
-        "choose": 1,
-        "type": "proficiencies",
-        "from": [
-          {
-            "index": "bagpipes",
-            "name": "Bagpipes",
-            "url": "/api/proficiencies/bagpipes"
-          },
-          {
-            "index": "drum",
-            "name": "Drum",
-            "url": "/api/proficiencies/drum"
-          },
-          {
-            "index": "dulcimer",
-            "name": "Dulcimer",
-            "url": "/api/proficiencies/dulcimer"
-          },
-          {
-            "index": "flute",
-            "name": "Flute",
-            "url": "/api/proficiencies/flute"
-          },
-          {
-            "index": "lute",
-            "name": "Lute",
-            "url": "/api/proficiencies/lute"
-          },
-          {
-            "index": "lyre",
-            "name": "Lyre",
-            "url": "/api/proficiencies/lyre"
-          },
-          {
-            "index": "horn",
-            "name": "Horn",
-            "url": "/api/proficiencies/horn"
-          },
-          {
-            "index": "pan-flute",
-            "name": "Pan flute",
-            "url": "/api/proficiencies/pan-flute"
-          },
-          {
-            "index": "shawm",
-            "name": "Shawm",
-            "url": "/api/proficiencies/shawm"
-          },
-          {
-            "index": "viol",
-            "name": "Viol",
-            "url": "/api/proficiencies/viol"
-          }
-        ]
+                {
+                  "index": "alchemists-supplies",
+                  "name": "Alchemist's supplies",
+                  "url": "/api/proficiencies/alchemists-supplies"
+                },
+                {
+                  "index": "brewers-supplies",
+                  "name": "Brewer's supplies",
+                  "url": "/api/proficiencies/brewers-supplies"
+                },
+                {
+                  "index": "calligraphers-supplies",
+                  "name": "Calligrapher's supplies",
+                  "url": "/api/proficiencies/calligraphers-supplies"
+                },
+                {
+                  "index": "carpenters-tools",
+                  "name": "Carpenter's tools",
+                  "url": "/api/proficiencies/carpenters-tools"
+                },
+                {
+                  "index": "cartographers-tools",
+                  "name": "Cartographer's tools",
+                  "url": "/api/proficiencies/cartographers-tools"
+                },
+                {
+                  "index": "cobblers-tools",
+                  "name": "Cobbler's tools",
+                  "url": "/api/proficiencies/cobblers-tools"
+                },
+                {
+                  "index": "cooks-utensils",
+                  "name": "Cook's utensils",
+                  "url": "/api/proficiencies/cooks-utensils"
+                },
+                {
+                  "index": "glassblowers-tools",
+                  "name": "Glassblower's tools",
+                  "url": "/api/proficiencies/glassblowers-tools"
+                },
+                {
+                  "index": "jewelers-tools",
+                  "name": "Jeweler's tools",
+                  "url": "/api/proficiencies/jewelers-tools"
+                },
+                {
+                  "index": "leatherworkers-tools",
+                  "name": "Leatherworker's tools",
+                  "url": "/api/proficiencies/leatherworkers-tools"
+                },
+                {
+                  "index": "masons-tools",
+                  "name": "Mason's tools",
+                  "url": "/api/proficiencies/masons-tools"
+                },
+                {
+                  "index": "painters-supplies",
+                  "name": "Painter's supplies",
+                  "url": "/api/proficiencies/painters-supplies"
+                },
+                {
+                  "index": "potters-tools",
+                  "name": "Potter's tools",
+                  "url": "/api/proficiencies/potters-tools"
+                },
+                {
+                  "index": "smiths-tools",
+                  "name": "Smith's tools",
+                  "url": "/api/proficiencies/smiths-tools"
+                },
+                {
+                  "index": "tinkers-tools",
+                  "name": "Tinker's tools",
+                  "url": "/api/proficiencies/tinkers-tools"
+                },
+                {
+                  "index": "weavers-tools",
+                  "name": "Weaver's tools",
+                  "url": "/api/proficiencies/weavers-tools"
+                },
+                {
+                  "index": "woodcarvers-tools",
+                  "name": "Woodcarver's tools",
+                  "url": "/api/proficiencies/woodcarvers-tools"
+                },
+                {
+                  "index": "disguise-kit",
+                  "name": "Disguise kit",
+                  "url": "/api/proficiencies/disguise-kit"
+                },
+                {
+                  "index": "forgery-kit",
+                  "name": "Forgery kit",
+                  "url": "/api/proficiencies/forgery-kit"
+                },
+                {
+                  "index": "bagpipes",
+                  "name": "Bagpipes",
+                  "url": "/api/proficiencies/bagpipes"
+                },
+                {
+                  "index": "drum",
+                  "name": "Drum",
+                  "url": "/api/proficiencies/drum"
+                },
+                {
+                  "index": "dulcimer",
+                  "name": "Dulcimer",
+                  "url": "/api/proficiencies/dulcimer"
+                },
+                {
+                  "index": "flute",
+                  "name": "Flute",
+                  "url": "/api/proficiencies/flute"
+                },
+                {
+                  "index": "lute",
+                  "name": "Lute",
+                  "url": "/api/proficiencies/lute"
+                },
+                {
+                  "index": "lyre",
+                  "name": "Lyre",
+                  "url": "/api/proficiencies/lyre"
+                },
+                {
+                  "index": "horn",
+                  "name": "Horn",
+                  "url": "/api/proficiencies/horn"
+                },
+                {
+                  "index": "pan-flute",
+                  "name": "Pan flute",
+                  "url": "/api/proficiencies/pan-flute"
+                },
+                {
+                  "index": "shawm",
+                  "name": "Shawm",
+                  "url": "/api/proficiencies/shawm"
+                },
+                {
+                  "index": "viol",
+                  "name": "Viol",
+                  "url": "/api/proficiencies/viol"
+                }
+              ]
       },
       {
         "choose": 2,
-        "type": "proficiencies",
+        "type": "skill proficiencies",
         "from": [
           {
             "index": "skill-acrobatics",
@@ -1608,13 +1617,16 @@
       }
     ],
     "class_levels": "/api/classes/monk/levels",
-    "subclasses": [
-      {
-        "index": "open-hand",
-        "name": "Open Hand",
-        "url": "/api/subclasses/open-hand"
-      }
-    ],
+    "subclasses": {
+      "subclass_options": [
+        {
+          "index": "open-hand",
+          "name": "Open Hand",
+          "url": "/api/subclasses/open-hand"
+          }
+      ],
+      "level": 3
+    },
     "url": "/api/classes/monk"
   },
   {
@@ -1808,13 +1820,16 @@
       }
     ],
     "class_levels": "/api/classes/paladin/levels",
-    "subclasses": [
-      {
-        "index": "devotion",
-        "name": "Devotion",
-        "url": "/api/subclasses/devotion"
-      }
-    ],
+    "subclasses": {
+      "subclass_options": [
+        {
+          "index": "devotion",
+          "name": "Devotion",
+          "url": "/api/subclasses/devotion"
+        }
+      ],
+      "level": 3
+    },
     "spellcasting": {
       "level": 2,
       "spellcasting_ability": {
@@ -2032,13 +2047,16 @@
       }
     ],
     "class_levels": "/api/classes/ranger/levels",
-    "subclasses": [
-      {
-        "index": "hunter",
-        "name": "Hunter",
-        "url": "/api/subclasses/hunter"
-      }
-    ],
+    "subclasses": {
+      "subclass_options": [
+        {
+          "index": "hunter",
+          "name": "Hunter",
+          "url": "/api/subclasses/hunter"
+        }
+      ],
+      "level": 3
+    },
     "spellcasting": {
       "level": 2,
       "spellcasting_ability": {
@@ -2302,13 +2320,16 @@
       }
     ],
     "class_levels": "/api/classes/rogue/levels",
-    "subclasses": [
-      {
-        "index": "thief",
-        "name": "Thief",
-        "url": "/api/subclasses/thief"
-      }
-    ],
+    "subclasses": {
+      "subclass_options": [
+        {
+          "index": "thief",
+          "name": "Thief",
+          "url": "/api/subclasses/thief"
+        }
+      ],
+      "level": 3
+    },
     "url": "/api/classes/rogue"
   },
   {
@@ -2486,13 +2507,16 @@
       }
     ],
     "class_levels": "/api/classes/sorcerer/levels",
-    "subclasses": [
-      {
-        "index": "draconic",
-        "name": "Draconic",
-        "url": "/api/subclasses/draconic"
-      }
-    ],
+    "subclasses": {
+      "subclass_options": [
+        {
+          "index": "draconic",
+          "name": "Draconic",
+          "url": "/api/subclasses/draconic"
+        }
+      ],
+      "level": 1
+    },
     "spellcasting": {
       "level": 1,
       "spellcasting_ability": {
@@ -2728,13 +2752,16 @@
       }
     ],
     "class_levels": "/api/classes/warlock/levels",
-    "subclasses": [
-      {
-        "index": "fiend",
-        "name": "Fiend",
-        "url": "/api/subclasses/fiend"
-      }
-    ],
+    "subclasses": {
+      "subclass_options": [
+        {
+          "index": "fiend",
+          "name": "Fiend",
+          "url": "/api/subclasses/fiend"
+        }
+      ],
+      "level": 1
+    },
     "spellcasting": {
       "level": 1,
       "spellcasting_ability": {
@@ -2942,13 +2969,16 @@
       }
     ],
     "class_levels": "/api/classes/wizard/levels",
-    "subclasses": [
-      {
-        "index": "evocation",
-        "name": "Evocation",
-        "url": "/api/subclasses/evocation"
-      }
-    ],
+    "subclasses": {
+      "subclass_options": [
+        {
+          "index": "evocation",
+          "name": "Evocation",
+          "url": "/api/subclasses/evocation"
+          }
+      ],
+      "level": 2
+    },
     "spellcasting": {
       "level": 1,
       "spellcasting_ability": {

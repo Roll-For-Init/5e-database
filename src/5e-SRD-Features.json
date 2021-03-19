@@ -4923,7 +4923,7 @@
     ],
     "choice": {
       "choose": 2,
-      "type": "feature",
+      "type": "expertise",
       "from": [
         {
           "index": "rogue-expertise-acrobatics",
@@ -5014,6 +5014,11 @@
           "index": "rogue-expertise-survival",
           "name": "Expertise: Survival",
           "url": "/api/features/rogue-expertise-survival"
+        },
+        {
+        "index": "rogue-expertise-thieves-tools",
+        "name": "Expertise: Thieves Tools",
+        "url": "/api/features/rogue-expertise-thieves-tools"
         }
       ]
     },

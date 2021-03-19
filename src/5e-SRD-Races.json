@@ -41,7 +41,7 @@
     ],
     "starting_proficiency_options": {
       "choose": 1,
-      "type": "proficiencies",
+      "type": "tool proficiencies",
       "from": [
         {
           "index": "smiths-tools",
@@ -444,57 +444,57 @@
       "choose": 1,
       "from": [
         {
-          "index": "breath-weapon",
-          "name": "Breath Weapon (Black)",
-          "url": "/api/traits/breath-weapon"
+          "index": "draconic-ancestry-black",
+          "name": "Draconic Ancestry (Black)",
+          "url": "/api/traits/draconic-ancestry-black"
         },
         {
-          "index": "breath-weapon",
-          "name": "Breath Weapon (Blue)",
-          "url": "/api/traits/breath-weapon"
+          "index": "draconic-ancestry-blue",
+          "name": "Draconic Ancestry (Blue)",
+          "url": "/api/traits/draconic-ancestry-blue"
         },
         {
-          "index": "breath-weapon",
-          "name": "Breath Weapon (Brass)",
-          "url": "/api/traits/breath-weapon"
+          "index": "draconic-ancestry-brass",
+          "name": "Draconic Ancestry (Brass)",
+          "url": "/api/traits/draconic-ancestry-brass"
         },
         {
-          "index": "breath-weapon",
-          "name": "Breath Weapon (Bronze)",
-          "url": "/api/traits/breath-weapon"
+          "index": "draconic-ancestry-bronze",
+          "name": "Draconic Ancestry (Bronze)",
+          "url": "/api/traits/draconic-ancestry-bronze"
         },
         {
-          "index": "breath-weapon",
-          "name": "Breath Weapon (Copper)",
-          "url": "/api/traits/breath-weapon"
+          "index": "draconic-ancestry-copper",
+          "name": "Draconic Ancestry (Copper)",
+          "url": "/api/traits/draconic-ancestry-copper"
         },
         {
-          "index": "breath-weapon",
-          "name": "Breath Weapon (Gold)",
-          "url": "/api/traits/breath-weapon"
+          "index": "draconic-ancestry-gold",
+          "name": "Draconic Ancestry (Gold)",
+          "url": "/api/traits/draconic-ancestry-gold"
         },
         {
-          "index": "breath-weapon",
-          "name": "Breath Weapon (Green)",
-          "url": "/api/traits/breath-weapon"
+          "index": "draconic-ancestry",
+          "name": "Draconic Ancestry (Green)",
+          "url": "/api/traits/draconic-ancestry-green"
         },
         {
-          "index": "breath-weapon",
-          "name": "Breath Weapon (Red)",
-          "url": "/api/traits/breath-weapon"
+          "index": "draconic-ancestry",
+          "name": "Draconic Ancestry (Red)",
+          "url": "/api/traits/draconic-ancestry-red"
         },
         {
-          "index": "breath-weapon",
-          "name": "Breath Weapon (Silver)",
-          "url": "/api/traits/breath-weapon"
+          "index": "draconic-ancestry",
+          "name": "Draconic Ancestry (Silver)",
+          "url": "/api/traits/draconic-ancestry-silver"
         },
         {
-          "index": "breath-weapon",
-          "name": "Breath Weapon (White)",
-          "url": "/api/traits/breath-weapon"
+          "index": "draconic-ancestry",
+          "name": "Draconic Ancestry (White)",
+          "url": "/api/traits/draconic-ancestry-white"
         }
       ],
-      "type": "trait"
+      "type": "draconic ancestry"
     },
     "subraces": [],
     "url": "/api/races/dragonborn"
@@ -568,7 +568,7 @@
     ],
     "ability_bonus_options": {
       "choose": 2,
-      "type": "ability_bonuses",
+      "type": "ability bonuses",
       "from": [
         {
           "ability_score": {
@@ -619,7 +619,7 @@
     "starting_proficiencies": [],
     "starting_proficiency_options": {
       "choose": 2,
-      "type": "proficiencies",
+      "type": "skill proficiencies",
       "from": [
         {
           "index": "skill-acrobatics",

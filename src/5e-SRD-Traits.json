@@ -280,7 +280,7 @@
     ],
     "name": "High Elf Cantrip",
     "desc": [
-      "You know one cantrip of your choice form the wizard spell list. Intelligence is your spellcasting ability for it."
+      "You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it."
     ],
     "proficiencies": [],
     "url": "/api/traits/high-elf-cantrip"
@@ -384,8 +384,193 @@
     "desc": [
       "You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table."
     ],
+    "table": {
+      "header": ["Dragon","Damage Type","Breath Weapon"],
+      "rows": [
+        ["Black", "Acid", "5 by 30 ft. line (Dex. save)"],
+        ["Blue",	"Lightning", "5 by 30 ft. line (Dex. save)"],
+        ["Brass",	"Fire",	"5 by 30 ft. line (Dex. save)"],
+        ["Bronze",	"Lightning",	"5 by 30 ft. line (Dex. save)"],
+        ["Copper",	"Acid",	"5 by 30 ft. line (Dex. save)"],
+        ["Gold",	"Fire",	"15 ft. cone (Dex. save)"],
+        ["Green",	"Poison",	"15 ft. cone (Con. save)"],
+        ["Red",	"Fire",	"15 ft. cone (Dex. save)"],
+        ["Silver",	"Cold",	"15 ft. cone (Con. save)"],
+        ["White",	"Cold",	"15 ft. cone (Con. save)"]
+      ]
+    },
     "proficiencies": [],
     "url": "/api/traits/draconic-ancestry"
+  },
+  {
+    "index": "draconic-ancestry-black",
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "Dragonborn",
+        "url": "/api/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "name": "Draconic Ancestry (Black)",
+    "desc": [
+      "You have Black Draconic ancestry. Your breath weapon is Acid in a 5 by 30ft. line and requires a Dex. save. You resist Acid damage."
+    ],
+    "proficiencies": [],
+    "url": "/api/traits/draconic-ancestry-black"
+  },
+  {
+    "index": "draconic-ancestry-blue",
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "Dragonborn",
+        "url": "/api/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "name": "Draconic Ancestry (Blue)",
+    "desc": [
+      "You have Blue Draconic ancestry. Your breath weapon is Lightning in a 5 by 30ft. line and requires a Dex. save. You resist Lightning damage."
+    ],
+    "proficiencies": [],
+    "url": "/api/traits/draconic-ancestry-blue"
+  },
+  {
+    "index": "draconic-ancestry-brass",
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "Dragonborn",
+        "url": "/api/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "name": "Draconic Ancestry (Brass)",
+    "desc": [
+      "You have Brass Draconic ancestry. Your breath weapon is Fire in a 5 by 30ft. line and requires a Dex. save. You resist Fire damage."
+    ],
+    "proficiencies": [],
+    "url": "/api/traits/draconic-ancestry-brass"
+  },
+  {
+    "index": "draconic-ancestry-bronze",
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "Dragonborn",
+        "url": "/api/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "name": "Draconic Ancestry (Bronze)",
+    "desc": [
+      "You have Bronze Draconic ancestry. Your breath weapon is Lightning in a 5 by 30ft. line and requires a Dex. save. You resist Lightning damage."
+    ],
+    "proficiencies": [],
+    "url": "/api/traits/draconic-ancestry-bronze"
+  },
+  {
+    "index": "draconic-ancestry-copper",
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "Dragonborn",
+        "url": "/api/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "name": "Draconic Ancestry (Copper)",
+    "desc": [
+      "You have Copper Draconic ancestry. Your breath weapon is Acid in a 5 by 30ft. line and requires a Dex. save. You resist Acid damage."
+    ],
+    "proficiencies": [],
+    "url": "/api/traits/draconic-ancestry-copper"
+  },
+  {
+    "index": "draconic-ancestry-gold",
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "Dragonborn",
+        "url": "/api/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "name": "Draconic Ancestry (Gold)",
+    "desc": [
+      "You have Gold Draconic ancestry. Your breath weapon is Fire in a 15 ft. cone and requires a Dex. save. You resist Fire damage."
+    ],
+    "proficiencies": [],
+    "url": "/api/traits/draconic-ancestry-gold"
+  },
+  {
+    "index": "draconic-ancestry-green",
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "Dragonborn",
+        "url": "/api/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "name": "Draconic Ancestry (Green)",
+    "desc": [
+      "You have Green Draconic ancestry. Your breath weapon is Poison in a 15 ft. cone and requires a Con. save. You resist Poison damage."
+    ],
+    "proficiencies": [],
+    "url": "/api/traits/draconic-ancestry-green"
+  },
+  {
+    "index": "draconic-ancestry-red",
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "Dragonborn",
+        "url": "/api/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "name": "Draconic Ancestry (Red)",
+    "desc": [
+      "You have Red Draconic ancestry. Your breath weapon is Fire in a 15 ft. cone and requires a Dex. save. You resist Fire damage."
+    ],
+    "proficiencies": [],
+    "url": "/api/traits/draconic-ancestry-red"
+  },
+  {
+    "index": "draconic-ancestry-silver",
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "Dragonborn",
+        "url": "/api/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "name": "Draconic Ancestry (Silver)",
+    "desc": [
+      "You have Silver Draconic ancestry. Your breath weapon is Cold in a 15 ft. cone and requires a Con. save. You resist Cold damage."
+    ],
+    "proficiencies": [],
+    "url": "/api/traits/draconic-ancestry-silver"
+  },
+  {
+    "index": "draconic-ancestry-white",
+    "races": [
+      {
+        "index": "dragonborn",
+        "name": "Dragonborn",
+        "url": "/api/races/dragonborn"
+      }
+    ],
+    "subraces": [],
+    "name": "Draconic Ancestry (White)",
+    "desc": [
+      "You have Gold Draconic ancestry. Your breath weapon is Cold in a 15 ft. cone and requires a Con. save. You resist Cold damage."
+    ],
+    "proficiencies": [],
+    "url": "/api/traits/draconic-ancestry-white"
   },
   {
     "index": "breath-weapon",
