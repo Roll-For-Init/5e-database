@@ -41,7 +41,7 @@
     ],
     "starting_proficiency_options": {
       "choose": 1,
-      "type": "proficiencies",
+      "type": "tool proficiencies",
       "from": [
         {
           "index": "smiths-tools",
@@ -494,7 +494,7 @@
           "url": "/api/traits/draconic-ancestry-white"
         }
       ],
-      "type": "Draconic Ancestry"
+      "type": "draconic ancestry"
     },
     "subraces": [],
     "url": "/api/races/dragonborn"
@@ -568,7 +568,7 @@
     ],
     "ability_bonus_options": {
       "choose": 2,
-      "type": "ability_bonuses",
+      "type": "ability bonuses",
       "from": [
         {
           "ability_score": {
@@ -619,7 +619,7 @@
     "starting_proficiencies": [],
     "starting_proficiency_options": {
       "choose": 2,
-      "type": "proficiencies",
+      "type": "skill proficiencies",
       "from": [
         {
           "index": "skill-acrobatics",

@@ -161,13 +161,16 @@
     ],
     "racial_trait_options": {
       "choose": 1,
-      "from": {
-        "trait_category": {
-          "index": "high-elf-cantrip",
-          "name": "High Elf Cantrip",
-          "url": "/api/classes/wizard/levels/0/spells"  
+      "from": [
+        {
+          "trait_category": {
+            "index": "high-elf-cantrip",
+            "name": "High Elf Cantrip",
+            "url": "/api/classes/wizard/levels/0/spells"  
+          }
         }
-      },
+      ]
+      ,
       "type": "High Elf Cantrip"
     },
     "url": "/api/subraces/high-elf"

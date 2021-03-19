@@ -1347,11 +1347,6 @@
         "choose": 1,
         "type": "proficiency",
         "from": [
-          {
-            "feature_option": {
-              "choose": 1,
-              "type": "Artisan's Tool",
-              "from": [
                 {
                   "index": "alchemists-supplies",
                   "name": "Alchemist's supplies",
@@ -1446,15 +1441,7 @@
                   "index": "forgery-kit",
                   "name": "Forgery kit",
                   "url": "/api/proficiencies/forgery-kit"
-                }
-              ]
-            }
-          },
-          {
-            "feature_option": {
-              "choose": 1,
-              "type": "instrument",
-              "from": [
+                },
                 {
                   "index": "bagpipes",
                   "name": "Bagpipes",
@@ -1506,13 +1493,10 @@
                   "url": "/api/proficiencies/viol"
                 }
               ]
-              }
-          }
-        ]
       },
       {
         "choose": 2,
-        "type": "proficiencies",
+        "type": "skill proficiencies",
         "from": [
           {
             "index": "skill-acrobatics",
