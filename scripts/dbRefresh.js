@@ -2,7 +2,7 @@ const { execSync } = require('child_process');
 const fs = require('fs');
 
 // check the environment variable is set
-const mongodb_uri = process.env.MONGODB_URI;
+const mongodb_uri = {insertUriHere};
 if (mongodb_uri === undefined) {
     console.error("uri undefined");
     const localhost_uri_example = 'mongodb://localhost/5e-database';

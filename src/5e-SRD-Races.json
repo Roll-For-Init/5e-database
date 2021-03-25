@@ -474,22 +474,22 @@
           "url": "/api/traits/draconic-ancestry-gold"
         },
         {
-          "index": "draconic-ancestry",
+          "index": "draconic-ancestry-green",
           "name": "Draconic Ancestry (Green)",
           "url": "/api/traits/draconic-ancestry-green"
         },
         {
-          "index": "draconic-ancestry",
+          "index": "draconic-ancestry-red",
           "name": "Draconic Ancestry (Red)",
           "url": "/api/traits/draconic-ancestry-red"
         },
         {
-          "index": "draconic-ancestry",
+          "index": "draconic-ancestry-silver",
           "name": "Draconic Ancestry (Silver)",
           "url": "/api/traits/draconic-ancestry-silver"
         },
         {
-          "index": "draconic-ancestry",
+          "index": "draconic-ancestry-white",
           "name": "Draconic Ancestry (White)",
           "url": "/api/traits/draconic-ancestry-white"
         }
