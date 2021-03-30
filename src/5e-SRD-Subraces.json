@@ -171,7 +171,8 @@
         }
       ]
       ,
-      "type": "High Elf Cantrip"
+      "type": "trait",
+      "header": "high elf cantrip"
     },
     "url": "/api/subraces/high-elf"
   },
