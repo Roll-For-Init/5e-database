@@ -495,7 +495,7 @@
         }
       ],
       "type": "trait",
-      "desc": "You have Draconic ancestry. Choose one type of Dragon from the Draconic Ancestry table. Your breath weapon and damage Resistance are determined by the Dragon type, as shown in the table.",
+      "desc": ["You have Draconic ancestry. Choose one type of Dragon from the Draconic Ancestry table. Your breath weapon and damage Resistance are determined by the Dragon type, as shown in the table."],
       "header": "draconic ancestry"
     },
     "subraces": [],

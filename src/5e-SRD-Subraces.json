@@ -172,7 +172,7 @@
       ]
       ,
       "type": "trait",
-      "desc": "You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.",
+      "desc": ["You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it."],
       "header": "high elf cantrip"
     },
     "url": "/api/subraces/high-elf"

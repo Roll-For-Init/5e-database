@@ -5933,52 +5933,52 @@
       "from": [
         {
           "index": "dragon-ancestor-black---acid-damage",
-          "name": "Dragon Ancestor: Black - Acid Damage",
+          "name": "Dragon Ancestor: Black",
           "url": "/api/features/dragon-ancestor-black---acid-damage"
         },
         {
           "index": "dragon-ancestor-blue---lightning-damage",
-          "name": "Dragon Ancestor: Blue - Lightning Damage",
+          "name": "Dragon Ancestor: Blue",
           "url": "/api/features/dragon-ancestor-blue---lightning-damage"
         },
         {
           "index": "dragon-ancestor-brass---fire-damage",
-          "name": "Dragon Ancestor: Brass - Fire Damage",
+          "name": "Dragon Ancestor: Brass",
           "url": "/api/features/dragon-ancestor-brass---fire-damage"
         },
         {
           "index": "dragon-ancestor-bronze---lightning-damage",
-          "name": "Dragon Ancestor: Bronze - Lightning Damage",
+          "name": "Dragon Ancestor: Bronze",
           "url": "/api/features/dragon-ancestor-bronze---lightning-damage"
         },
         {
           "index": "dragon-ancestor-copper---acid-damage",
-          "name": "Dragon Ancestor: Copper - Acid Damage",
+          "name": "Dragon Ancestor: Copper",
           "url": "/api/features/dragon-ancestor-copper---acid-damage"
         },
         {
           "index": "dragon-ancestor-gold---fire-damage",
-          "name": "Dragon Ancestor: Gold - Fire Damage",
+          "name": "Dragon Ancestor: Gold",
           "url": "/api/features/dragon-ancestor-gold---fire-damage"
         },
         {
           "index": "dragon-ancestor-green---poison-damage",
-          "name": "Dragon Ancestor: Green - Poison Damage",
+          "name": "Dragon Ancestor: Green",
           "url": "/api/features/dragon-ancestor-green---poison-damage"
         },
         {
           "index": "dragon-ancestor-red---fire-damage",
-          "name": "Dragon Ancestor: Red - Fire Damage",
+          "name": "Dragon Ancestor: Red",
           "url": "/api/features/dragon-ancestor-red---fire-damage"
         },
         {
           "index": "dragon-ancestor-silver---cold-damage",
-          "name": "Dragon Ancestor: Silver - Cold Damage",
+          "name": "Dragon Ancestor: Silver",
           "url": "/api/features/dragon-ancestor-silver---cold-damage"
         },
         {
           "index": "dragon-ancestor-white---cold-damage",
-          "name": "Dragon Ancestor: White - Cold Damage",
+          "name": "Dragon Ancestor: White",
           "url": "/api/features/dragon-ancestor-white---cold-damage"
         }
       ]
@@ -5997,12 +5997,11 @@
       "name": "Draconic",
       "url": "/api/subclasses/draconic"
     },
-    "name": "Dragon Ancestor: Black - Acid Damage",
+    "name": "Dragon Ancestor: Black",
     "level": 1,
     "prerequisites": [],
     "desc": [
-      "At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later.",
-      "You can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check."
+      "From your Black dragon ancestor, you gain the Acid damage type to be used by features you gain later."
     ],
     "group": "Dragon Ancestor",
     "url": "/api/features/dragon-ancestor-black---acid-damage"
@@ -6019,12 +6018,11 @@
       "name": "Draconic",
       "url": "/api/subclasses/draconic"
     },
-    "name": "Dragon Ancestor: Blue - Lightning Damage",
+    "name": "Dragon Ancestor: Blue",
     "level": 1,
     "prerequisites": [],
     "desc": [
-      "At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later.",
-      "You can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check."
+      "From your Blue dragon ancestor, you gain the Lightning damage type to be used by features you gain later."
     ],
     "group": "Dragon Ancestor",
     "url": "/api/features/dragon-ancestor-blue---lightning-damage"
@@ -6041,12 +6039,11 @@
       "name": "Draconic",
       "url": "/api/subclasses/draconic"
     },
-    "name": "Dragon Ancestor: Brass - Fire Damage",
+    "name": "Dragon Ancestor: Brass",
     "level": 1,
     "prerequisites": [],
     "desc": [
-      "At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later.",
-      "You can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check."
+      "From your Brass dragon ancestor, you gain the Fire damage type to be used by features you gain later."
     ],
     "group": "Dragon Ancestor",
     "url": "/api/features/dragon-ancestor-brass---fire-damage"
@@ -6063,12 +6060,11 @@
       "name": "Draconic",
       "url": "/api/subclasses/draconic"
     },
-    "name": "Dragon Ancestor: Bronze - Lightning Damage",
+    "name": "Dragon Ancestor: Bronze",
     "level": 1,
     "prerequisites": [],
     "desc": [
-      "At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later.",
-      "You can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check."
+      "From your Bronze dragon ancestor, you gain the Lightning damage type to be used by features you gain later."
     ],
     "group": "Dragon Ancestor",
     "url": "/api/features/dragon-ancestor-bronze---lightning-damage"
@@ -6085,12 +6081,11 @@
       "name": "Draconic",
       "url": "/api/subclasses/draconic"
     },
-    "name": "Dragon Ancestor: Copper - Acid Damage",
+    "name": "Dragon Ancestor: Copper",
     "level": 1,
     "prerequisites": [],
     "desc": [
-      "At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later.",
-      "You can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check."
+      "From your Copper dragon ancestor, you gain the Acid damage type to be used by features you gain later."
     ],
     "group": "Dragon Ancestor",
     "url": "/api/features/dragon-ancestor-copper---acid-damage"
@@ -6107,12 +6102,11 @@
       "name": "Draconic",
       "url": "/api/subclasses/draconic"
     },
-    "name": "Dragon Ancestor: Gold - Fire Damage",
+    "name": "Dragon Ancestor: Gold",
     "level": 1,
     "prerequisites": [],
     "desc": [
-      "At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later.",
-      "You can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check."
+      "From your Gold dragon ancestor, you gain the Fire damage type to be used by features you gain later."
     ],
     "group": "Dragon Ancestor",
     "url": "/api/features/dragon-ancestor-gold---fire-damage"
@@ -6129,12 +6123,11 @@
       "name": "Draconic",
       "url": "/api/subclasses/draconic"
     },
-    "name": "Dragon Ancestor: Green - Poison Damage",
+    "name": "Dragon Ancestor: Green",
     "level": 1,
     "prerequisites": [],
     "desc": [
-      "At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later.",
-      "You can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check."
+      "From your Green dragon ancestor, you gain the Poison damage type to be used by features you gain later."
     ],
     "group": "Dragon Ancestor",
     "url": "/api/features/dragon-ancestor-green---poison-damage"
@@ -6151,12 +6144,11 @@
       "name": "Draconic",
       "url": "/api/subclasses/draconic"
     },
-    "name": "Dragon Ancestor: Red - Fire Damage",
+    "name": "Dragon Ancestor: Red",
     "level": 1,
     "prerequisites": [],
     "desc": [
-      "At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later.",
-      "You can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check."
+      "From your Red dragon ancestor, you gain the Fire damage type to be used by features you gain later."
     ],
     "group": "Dragon Ancestor",
     "url": "/api/features/dragon-ancestor-red---fire-damage"
@@ -6173,12 +6165,11 @@
       "name": "Draconic",
       "url": "/api/subclasses/draconic"
     },
-    "name": "Dragon Ancestor: Silver - Cold Damage",
+    "name": "Dragon Ancestor: Silver",
     "level": 1,
     "prerequisites": [],
     "desc": [
-      "At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later.",
-      "You can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check."
+      "From your Silver dragon ancestor, you gain the Cold damage type to be used by features you gain later."
     ],
     "group": "Dragon Ancestor",
     "url": "/api/features/dragon-ancestor-silver---cold-damage"
@@ -6195,12 +6186,11 @@
       "name": "Draconic",
       "url": "/api/subclasses/draconic"
     },
-    "name": "Dragon Ancestor: White - Cold Damage",
+    "name": "Dragon Ancestor: White",
     "level": 1,
     "prerequisites": [],
     "desc": [
-      "At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later.",
-      "You can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check."
+      "From your White dragon ancestor, you gain the Cold damage type to be used by features you gain later."
     ],
     "group": "Dragon Ancestor",
     "url": "/api/features/dragon-ancestor-white---cold-damage"
