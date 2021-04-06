@@ -139,6 +139,25 @@
                 }
             }
         ],
+        "other_equipment": [
+            {
+                "equipment": {
+                    "name": "A prayer book"
+                },
+                "quantity": 1
+            },
+            {
+                "equipment": {
+                    "name": "5 sticks of incense"
+                },
+                "quantity": 1
+            },{
+                "equipment": {
+                    "name": "Vestments"
+                },
+                "quantity": 1
+            }
+        ],
         "feature": {
             "name": "Shelter of the Faithful",
             "desc": [
@@ -338,6 +357,945 @@
                 "I am inflexible in my thinking.",
                 "I am suspicious of strangers and expect the worst of them.",
                 "Once I pick a goal, I become obsessed with it to the detriment of everything else in my life."
+            ]
+        }
+    },
+    {
+        "index": "amnesiac",
+        "name": "Amnesiac",        
+        "desc": [
+            "You have no memory of who you were before becoming an adventurer. Some event in your past scarred you, mentally or physically. There's something in the back of your mind pulling you toward your past, a constant hint of who you were, but you can never quite put your finger on it.",
+            "Maybe you're on a search to discover your past, or you're determined for a fresh start and to rewrite your history. Do you have some sort of unexplained skill or knowledge, or something driving you that you can't explain? What's the first thing you can remember? Or maybe it's all an act, and you secretly remember everything..."
+        ],
+        "starting_proficiency_options": [
+            {
+                "choose": 2,
+                "type": "skill proficiencies",
+                "from": [
+                    {
+                        "index": "skill-acrobatics",
+                        "name": "Skill: Acrobatics",
+                        "url": "/api/proficiencies/skill-acrobatics"
+                    },
+                    {
+                        "index": "skill-animal-handling",
+                        "name": "Skill: Animal Handling",
+                        "url": "/api/proficiencies/skill-animal-handling"
+                    },
+                    {
+                        "index": "skill-arcana",
+                        "name": "Skill: Arcana",
+                        "url": "/api/proficiencies/skill-arcana"
+                    },
+                    {
+                        "index": "skill-athletics",
+                        "name": "Skill: Athletics",
+                        "url": "/api/proficiencies/skill-athletics"
+                    },
+                    {
+                        "index": "skill-deception",
+                        "name": "Skill: Deception",
+                        "url": "/api/proficiencies/skill-deception"
+                    },
+                    {
+                        "index": "skill-history",
+                        "name": "Skill: History",
+                        "url": "/api/proficiencies/skill-history"
+                    },
+                    {
+                        "index": "skill-insight",
+                        "name": "Skill: Insight",
+                        "url": "/api/proficiencies/skill-insight"
+                    },
+                    {
+                        "index": "skill-intimidation",
+                        "name": "Skill: Intimidation",
+                        "url": "/api/proficiencies/skill-intimidation"
+                    },
+                    {
+                        "index": "skill-investigation",
+                        "name": "Skill: Investigation",
+                        "url": "/api/proficiencies/skill-investigation"
+                    },
+                    {
+                        "index": "skill-medicine",
+                        "name": "Skill: Medicine",
+                        "url": "/api/proficiencies/skill-medicine"
+                    },
+                    {
+                        "index": "skill-nature",
+                        "name": "Skill: Nature",
+                        "url": "/api/proficiencies/skill-nature"
+                    },
+                    {
+                        "index": "skill-perception",
+                        "name": "Skill: Perception",
+                        "url": "/api/proficiencies/skill-perception"
+                    },
+                    {
+                        "index": "skill-performance",
+                        "name": "Skill: Performance",
+                        "url": "/api/proficiencies/skill-performance"
+                    },
+                    {
+                        "index": "skill-persuasion",
+                        "name": "Skill: Persuasion",
+                        "url": "/api/proficiencies/skill-persuasion"
+                    },
+                    {
+                        "index": "skill-religion",
+                        "name": "Skill: Religion",
+                        "url": "/api/proficiencies/skill-religion"
+                    },
+                    {
+                        "index": "skill-sleight-of-hand",
+                        "name": "Skill: Sleight of Hand",
+                        "url": "/api/proficiencies/skill-sleight-of-hand"
+                    },
+                    {
+                        "index": "skill-stealth",
+                        "name": "Skill: Stealth",
+                        "url": "/api/proficiencies/skill-stealth"
+                    },
+                    {
+                        "index": "skill-survival",
+                        "name": "Skill: Survival",
+                        "url": "/api/proficiencies/skill-survival"
+                    }
+                ]
+            },
+            {
+                "choose": 1,
+                "type": "tool proficiencies",
+                "from": [
+                    {
+                        "index": "dice-set",
+                        "name": "Dice set",
+                        "url": "/api/proficiencies/dice-set"
+                    },
+                    {
+                        "index": "playing-card-set",
+                        "name": "Playing card set",
+                        "url": "/api/proficiencies/playing-card-set"
+                    },
+                    {
+                        "index": "bagpipes",
+                        "name": "Bagpipes",
+                        "url": "/api/proficiencies/bagpipes"
+                    },
+                    {
+                        "index": "drum",
+                        "name": "Drum",
+                        "url": "/api/proficiencies/drum"
+                    },
+                    {
+                        "index": "dulcimer",
+                        "name": "Dulcimer",
+                        "url": "/api/proficiencies/dulcimer"
+                    },
+                    {
+                        "index": "flute",
+                        "name": "Flute",
+                        "url": "/api/proficiencies/flute"
+                    },
+                    {
+                        "index": "lute",
+                        "name": "Lute",
+                        "url": "/api/proficiencies/lute"
+                    },
+                    {
+                        "index": "lyre",
+                        "name": "Lyre",
+                        "url": "/api/proficiencies/lyre"
+                    },
+                    {
+                        "index": "horn",
+                        "name": "Horn",
+                        "url": "/api/proficiencies/horn"
+                    },
+                    {
+                        "index": "pan-flute",
+                        "name": "Pan flute",
+                        "url": "/api/proficiencies/pan-flute"
+                    },
+                    {
+                        "index": "shawm",
+                        "name": "Shawm",
+                        "url": "/api/proficiencies/shawm"
+                    },
+                    {
+                        "index": "viol",
+                        "name": "Viol",
+                        "url": "/api/proficiencies/viol"
+                    }
+                ]
+            }
+        ],
+        "language_options": {
+            "choose": 1,
+            "type": "languages",
+            "from": [
+                {
+                    "index": "common",
+                    "name": "Common",
+                    "url": "/api/languages/common"
+                },
+                {
+                    "index": "dwarvish",
+                    "name": "Dwarvish",
+                    "url": "/api/languages/dwarvish"
+                },
+                {
+                    "index": "elvish",
+                    "name": "Elvish",
+                    "url": "/api/languages/elvish"
+                },
+                {
+                    "index": "giant",
+                    "name": "Giant",
+                    "url": "/api/languages/giant"
+                },
+                {
+                    "index": "gnomish",
+                    "name": "Gnomish",
+                    "url": "/api/languages/gnomish"
+                },
+                {
+                    "index": "goblin",
+                    "name": "Goblin",
+                    "url": "/api/languages/goblin"
+                },
+                {
+                    "index": "halfling",
+                    "name": "Halfling",
+                    "url": "/api/languages/halfling"
+                },
+                {
+                    "index": "orc",
+                    "name": "Orc",
+                    "url": "/api/languages/orc"
+                },
+                {
+                    "index": "abyssal",
+                    "name": "Abyssal",
+                    "url": "/api/languages/abyssal"
+                },
+                {
+                    "index": "celestial",
+                    "name": "Celestial",
+                    "url": "/api/languages/celestial"
+                },
+                {
+                    "index": "draconic",
+                    "name": "Draconic",
+                    "url": "/api/languages/draconic"
+                },
+                {
+                    "index": "deep-speech",
+                    "name": "Deep Speech",
+                    "url": "/api/languages/deep-speech"
+                },
+                {
+                    "index": "infernal",
+                    "name": "Infernal",
+                    "url": "/api/languages/infernal"
+                },
+                {
+                    "index": "primordial",
+                    "name": "Primordial",
+                    "url": "/api/languages/primordial"
+                },
+                {
+                    "index": "sylvan",
+                    "name": "Sylvan",
+                    "url": "/api/languages/sylvan"
+                },
+                {
+                    "index": "undercommon",
+                    "name": "Undercommon",
+                    "url": "/api/languages/undercommon"
+                }
+            ]
+        },
+        "starting_equipment": [
+            {
+                "equipment": {
+                    "index": "clothes-common",
+                    "name": "Clothes, common",
+                    "url": "/api/equipment/clothes-common"
+                },
+                "quantity": 1
+            },
+            {
+                "equipment": {
+                    "index": "pouch",
+                    "name": "Pouch",
+                    "url": "/api/equipment/pouch"
+                },
+                "quantity": 1
+            }
+        ],
+        "starting_currency": {
+            "quantity": 10,
+            "unit": "gp"
+        },
+        "other_equipment": [
+            {
+                "equipment": {
+                    "name": "A trinket from your past life"
+                },
+                "quantity": 1
+            }
+        ],
+        "feature": {
+            "name": "Déjà Vu",
+            "desc": [
+                "Choose a field of knowledge. You sometimes remember details about this topic without knowing why, and you have advantage on history and insight checks related to this topic."
+            ]
+        }
+    },
+    {
+        "index": "diabolist",
+        "name": "Diabolist",        
+        "desc": [
+            "Devil-worshiper. Cultist. Evildoer. You've been called all of these things. You are a servant of some dark force, an evil deity who represents the worst facets of reality. Whoever this patron is, you have a special bond with them that you put above everything else... including your own life.",
+            "Choose a being to be your patron. It can be a god from any pantheon, a dark sorcerer, or any other evil force. Think about what made you follow them. Was there an event in your past that made you turn your back on good forever? Are you a member of a group who follows this being, or are you alone in your worship?",
+            "Your alignment tends toward evil."
+        ],
+        "starting_proficiency_options": [
+            {
+                "choose": 2,
+                "type": "skill proficiencies",
+                "from": [
+                    {
+                        "index": "skill-arcana",
+                        "name": "Skill: Arcana",
+                        "url": "/api/proficiencies/skill-arcana"
+                    },
+                    {
+                        "index": "skill-deception",
+                        "name": "Skill: Deception",
+                        "url": "/api/proficiencies/skill-deception"
+                    },
+                    {
+                        "index": "skill-history",
+                        "name": "Skill: History",
+                        "url": "/api/proficiencies/skill-history"
+                    },
+                    {
+                        "index": "skill-insight",
+                        "name": "Skill: Insight",
+                        "url": "/api/proficiencies/skill-insight"
+                    },
+                    {
+                        "index": "skill-intimidation",
+                        "name": "Skill: Intimidation",
+                        "url": "/api/proficiencies/skill-intimidation"
+                    },
+                    {
+                        "index": "skill-religion",
+                        "name": "Skill: Religion",
+                        "url": "/api/proficiencies/skill-religion"
+                    }
+                ]
+            },
+            {
+                "choose": 1,
+                "type": "tool proficiencies",
+                "from": [
+                    {
+                        "index": "disguise-kit",
+                        "name": "Disguise Kit",
+                        "url": "/api/proficiencies/disguise-kit"
+                    },
+                    {
+                        "index": "forgery-kit",
+                        "name": "Forgery Kit",
+                        "url": "/api/proficiencies/forgery-kit"
+                    },
+                    {
+                        "index": "poisoners-kit",
+                        "name": "Poisoner's Kit",
+                        "url": "/api/proficiencies/poisoners-kit"
+                    }
+                ]
+            }
+        ],
+        "language_options": {
+            "choose": 1,
+            "type": "languages",
+            "from": [
+                {
+                    "index": "abyssal",
+                    "name": "Abyssal",
+                    "url": "/api/languages/abyssal"
+                },
+                {
+                    "index": "celestial",
+                    "name": "Celestial",
+                    "url": "/api/languages/celestial"
+                },
+                {
+                    "index": "draconic",
+                    "name": "Draconic",
+                    "url": "/api/languages/draconic"
+                },
+                {
+                    "index": "deep-speech",
+                    "name": "Deep Speech",
+                    "url": "/api/languages/deep-speech"
+                },
+                {
+                    "index": "infernal",
+                    "name": "Infernal",
+                    "url": "/api/languages/infernal"
+                },
+                {
+                    "index": "primordial",
+                    "name": "Primordial",
+                    "url": "/api/languages/primordial"
+                },
+                {
+                    "index": "sylvan",
+                    "name": "Sylvan",
+                    "url": "/api/languages/sylvan"
+                },
+                {
+                    "index": "undercommon",
+                    "name": "Undercommon",
+                    "url": "/api/languages/undercommon"
+                }
+            ]
+        },
+        "starting_equipment": [
+            {
+                "equipment": {
+                    "index": "clothes-common",
+                    "name": "Clothes, common",
+                    "url": "/api/equipment/clothes-common"
+                },
+                "quantity": 1
+            },
+            {
+                "equipment": {
+                    "index": "candle",
+                    "name": "Candle",
+                    "url": "/api/equipment/candle"
+                },
+                "quantity": 1
+            },
+            {
+                "equipment": {
+                    "index": "pouch",
+                    "name": "Pouch",
+                    "url": "/api/equipment/pouch"
+                },
+                "quantity": 1
+            }
+        ],
+        "starting_currency": {
+            "quantity": 15,
+            "unit": "gp"
+        },
+        "starting_equipment_options": [
+            {
+                "choose": 1,
+                "type": "equipment",
+                "from": [
+                    {
+                        "index": "amulet",
+                        "name": "Amulet",
+                        "url": "/api/equipment/amulet"
+                    },
+                    {
+                        "index": "emblem",
+                        "name": "Emblem",
+                        "url": "/api/equipment/emblem"
+                    },
+                    {
+                        "index": "reliquary",
+                        "name": "Reliquary",
+                        "url": "/api/equipment/reliquary"
+                    },
+                    {
+                        "index": "crystal",
+                        "name": "Crystal",
+                        "url": "/api/equipment/crystal"
+                    },
+                    {
+                        "index": "orb",
+                        "name": "Orb",
+                        "url": "/api/equipment/orb"
+                    },
+                    {
+                        "index": "rod",
+                        "name": "Rod",
+                        "url": "/api/equipment/rod"
+                    },
+                    {
+                        "index": "staff",
+                        "name": "Staff",
+                        "url": "/api/equipment/staff"
+                    },
+                    {
+                        "index": "wand",
+                        "name": "Wand",
+                        "url": "/api/equipment/wand"
+                    }
+                ]
+            }
+        ],
+        "feature": {
+            "name": "Fiendish Boon",
+            "desc": [
+                "Your patron is always watching you and will send help in times of need. You can call on your patron for help with a knowledge or insight check, and they may help you if they feel so inclined. But don't be surprised if they ask for something in return..."
+            ]
+        }
+    },
+    {
+        "index": "the-mad",
+        "name": "The Mad",        
+        "desc": [
+            "A deranged lunatic. An escaped asylum inmate. A maniacal jester. Something in your past left you broken and mentally unstable. Your insanity can manifest as a violation of social norms, a sheer disregard for morals, or the embodiment of pure chaos. Whatever it is, there's something deeply disturbing about your presence.",
+            "What event triggered you to lose your sanity? Did you suffer a traumatic loss? Were you kept as a prisoner in nightmarish conditions? Or were you the subject of a horrible experiment? Think about how your character interacts with others and mannerisms they might have.",
+            "Your alignment tends toward chaotic."
+        ],
+        "starting_proficiency_options": [
+            {
+                "choose": 2,
+                "type": "skill proficiencies",
+                "from": [
+                    {
+                        "index": "skill-deception",
+                        "name": "Skill: Deception",
+                        "url": "/api/proficiencies/skill-deception"
+                    },
+                    {
+                        "index": "skill-history",
+                        "name": "Skill: History",
+                        "url": "/api/proficiencies/skill-history"
+                    },
+                    {
+                        "index": "skill-insight",
+                        "name": "Skill: Insight",
+                        "url": "/api/proficiencies/skill-insight"
+                    },
+                    {
+                        "index": "skill-intimidation",
+                        "name": "Skill: Intimidation",
+                        "url": "/api/proficiencies/skill-intimidation"
+                    },
+                    {
+                        "index": "skill-nature",
+                        "name": "Skill: Nature",
+                        "url": "/api/proficiencies/skill-nature"
+                    },
+                    {
+                        "index": "skill-perception",
+                        "name": "Skill: Perception",
+                        "url": "/api/proficiencies/skill-perception"
+                    },
+                    {
+                        "index": "skill-performance",
+                        "name": "Skill: Performance",
+                        "url": "/api/proficiencies/skill-performance"
+                    },
+                    {
+                        "index": "skill-religion",
+                        "name": "Skill: Religion",
+                        "url": "/api/proficiencies/skill-religion"
+                    },
+                    {
+                        "index": "skill-sleight-of-hand",
+                        "name": "Skill: Sleight of Hand",
+                        "url": "/api/proficiencies/skill-sleight-of-hand"
+                    },
+                    {
+                        "index": "skill-survival",
+                        "name": "Skill: Survival",
+                        "url": "/api/proficiencies/skill-survival"
+                    }
+                ]
+            },
+            {
+                "choose": 1,
+                "type": "tool proficiencies",
+                "from": [
+                    {
+                        "index": "dice-set",
+                        "name": "Dice set",
+                        "url": "/api/proficiencies/dice-set"
+                    },
+                    {
+                        "index": "playing-card-set",
+                        "name": "Playing card set",
+                        "url": "/api/proficiencies/playing-card-set"
+                    },
+                    {
+                        "index": "bagpipes",
+                        "name": "Bagpipes",
+                        "url": "/api/proficiencies/bagpipes"
+                    },
+                    {
+                        "index": "drum",
+                        "name": "Drum",
+                        "url": "/api/proficiencies/drum"
+                    },
+                    {
+                        "index": "dulcimer",
+                        "name": "Dulcimer",
+                        "url": "/api/proficiencies/dulcimer"
+                    },
+                    {
+                        "index": "flute",
+                        "name": "Flute",
+                        "url": "/api/proficiencies/flute"
+                    },
+                    {
+                        "index": "lute",
+                        "name": "Lute",
+                        "url": "/api/proficiencies/lute"
+                    },
+                    {
+                        "index": "lyre",
+                        "name": "Lyre",
+                        "url": "/api/proficiencies/lyre"
+                    },
+                    {
+                        "index": "horn",
+                        "name": "Horn",
+                        "url": "/api/proficiencies/horn"
+                    },
+                    {
+                        "index": "pan-flute",
+                        "name": "Pan flute",
+                        "url": "/api/proficiencies/pan-flute"
+                    },
+                    {
+                        "index": "shawm",
+                        "name": "Shawm",
+                        "url": "/api/proficiencies/shawm"
+                    },
+                    {
+                        "index": "viol",
+                        "name": "Viol",
+                        "url": "/api/proficiencies/viol"
+                    }
+                ]
+            }
+        ],
+        "language_options": {
+            "choose": 1,
+            "type": "languages",
+            "from": [
+                {
+                    "index": "common",
+                    "name": "Common",
+                    "url": "/api/languages/common"
+                },
+                {
+                    "index": "dwarvish",
+                    "name": "Dwarvish",
+                    "url": "/api/languages/dwarvish"
+                },
+                {
+                    "index": "elvish",
+                    "name": "Elvish",
+                    "url": "/api/languages/elvish"
+                },
+                {
+                    "index": "giant",
+                    "name": "Giant",
+                    "url": "/api/languages/giant"
+                },
+                {
+                    "index": "gnomish",
+                    "name": "Gnomish",
+                    "url": "/api/languages/gnomish"
+                },
+                {
+                    "index": "goblin",
+                    "name": "Goblin",
+                    "url": "/api/languages/goblin"
+                },
+                {
+                    "index": "halfling",
+                    "name": "Halfling",
+                    "url": "/api/languages/halfling"
+                },
+                {
+                    "index": "orc",
+                    "name": "Orc",
+                    "url": "/api/languages/orc"
+                },
+                {
+                    "index": "abyssal",
+                    "name": "Abyssal",
+                    "url": "/api/languages/abyssal"
+                },
+                {
+                    "index": "celestial",
+                    "name": "Celestial",
+                    "url": "/api/languages/celestial"
+                },
+                {
+                    "index": "draconic",
+                    "name": "Draconic",
+                    "url": "/api/languages/draconic"
+                },
+                {
+                    "index": "deep-speech",
+                    "name": "Deep Speech",
+                    "url": "/api/languages/deep-speech"
+                },
+                {
+                    "index": "infernal",
+                    "name": "Infernal",
+                    "url": "/api/languages/infernal"
+                },
+                {
+                    "index": "primordial",
+                    "name": "Primordial",
+                    "url": "/api/languages/primordial"
+                },
+                {
+                    "index": "sylvan",
+                    "name": "Sylvan",
+                    "url": "/api/languages/sylvan"
+                },
+                {
+                    "index": "undercommon",
+                    "name": "Undercommon",
+                    "url": "/api/languages/undercommon"
+                }
+            ]
+        },
+        "starting_equipment": [
+            {
+                "equipment": {
+                    "index": "clothes-common",
+                    "name": "Clothes, common",
+                    "url": "/api/equipment/clothes-common"
+                },
+                "quantity": 1
+            },
+            {
+                "equipment": {
+                    "index": "pouch",
+                    "name": "Pouch",
+                    "url": "/api/equipment/pouch"
+                },
+                "quantity": 1
+            },
+            {
+                "equipment": {
+                    "index": "manacles",
+                    "name": "Manacles",
+                    "url": "/api/equipment/manacles"
+                },
+                "quantity": 1
+            }
+        ],
+        "starting_currency": {
+            "quantity": 5,
+            "unit": "gp"
+        },
+        "other_equipment": [
+            {
+                "equipment": {
+                    "name": "A children's doll"
+                },
+                "quantity": 1
+            },
+            {
+                "equipment": {
+                    "name": "An antique spoon with a sharpened edge"
+                },
+                "quantity": 1
+            }
+        ],
+        "feature": {
+            "name": "Mania",
+            "desc": [
+                "Any time you roll a 20 on an ability check, skill check, or saving throw, you can choose to instead treat the result as a 1."
+            ]
+        }
+    },
+    {
+        "index": "the-hunted",
+        "name": "The Hunted",        
+        "desc": [
+            "They are predator, you are prey. You're being hunted by some foe, living in constant fear and staying moving to keep out of their way. It's only a matter of time until they catch you... unless you catch them first.",
+            "Who is hunting you? What made you a target? Do you have some special knowledge or a secret they wish to discover? Did you cross the wrong person? Did you betray someone who trusted you?"
+        ],
+        "starting_proficiencies": [
+            {
+                "index": "disguise-kit",
+                "name": "Disguise Kit",
+                "url": "/api/proficiencies/disguise-kit"
+            }
+        ],
+        "starting_proficiency_options": {
+            "choose": 2,
+            "type": "skill proficiencies",
+            "from": [
+                {
+                    "index": "skill-deception",
+                    "name": "Skill: Deception",
+                    "url": "/api/proficiencies/skill-deception"
+                },
+                {
+                    "index": "skill-insight",
+                    "name": "Skill: Insight",
+                    "url": "/api/proficiencies/skill-insight"
+                },
+                {
+                    "index": "skill-intimidation",
+                    "name": "Skill: Intimidation",
+                    "url": "/api/proficiencies/skill-intimidation"
+                },
+                {
+                    "index": "skill-investigation",
+                    "name": "Skill: Investigation",
+                    "url": "/api/proficiencies/skill-investigation"
+                },
+                {
+                    "index": "skill-perception",
+                    "name": "Skill: Perception",
+                    "url": "/api/proficiencies/skill-perception"
+                },
+                {
+                    "index": "skill-performance",
+                    "name": "Skill: Performance",
+                    "url": "/api/proficiencies/skill-performance"
+                },
+                {
+                    "index": "skill-survival",
+                    "name": "Skill: Survival",
+                    "url": "/api/proficiencies/skill-survival"
+                }
+            ]
+        },
+        "language_options": {
+            "choose": 1,
+            "type": "languages",
+            "from": [
+                {
+                    "index": "common",
+                    "name": "Common",
+                    "url": "/api/languages/common"
+                },
+                {
+                    "index": "dwarvish",
+                    "name": "Dwarvish",
+                    "url": "/api/languages/dwarvish"
+                },
+                {
+                    "index": "elvish",
+                    "name": "Elvish",
+                    "url": "/api/languages/elvish"
+                },
+                {
+                    "index": "giant",
+                    "name": "Giant",
+                    "url": "/api/languages/giant"
+                },
+                {
+                    "index": "gnomish",
+                    "name": "Gnomish",
+                    "url": "/api/languages/gnomish"
+                },
+                {
+                    "index": "goblin",
+                    "name": "Goblin",
+                    "url": "/api/languages/goblin"
+                },
+                {
+                    "index": "halfling",
+                    "name": "Halfling",
+                    "url": "/api/languages/halfling"
+                },
+                {
+                    "index": "orc",
+                    "name": "Orc",
+                    "url": "/api/languages/orc"
+                },
+                {
+                    "index": "abyssal",
+                    "name": "Abyssal",
+                    "url": "/api/languages/abyssal"
+                },
+                {
+                    "index": "celestial",
+                    "name": "Celestial",
+                    "url": "/api/languages/celestial"
+                },
+                {
+                    "index": "draconic",
+                    "name": "Draconic",
+                    "url": "/api/languages/draconic"
+                },
+                {
+                    "index": "deep-speech",
+                    "name": "Deep Speech",
+                    "url": "/api/languages/deep-speech"
+                },
+                {
+                    "index": "infernal",
+                    "name": "Infernal",
+                    "url": "/api/languages/infernal"
+                },
+                {
+                    "index": "primordial",
+                    "name": "Primordial",
+                    "url": "/api/languages/primordial"
+                },
+                {
+                    "index": "sylvan",
+                    "name": "Sylvan",
+                    "url": "/api/languages/sylvan"
+                },
+                {
+                    "index": "undercommon",
+                    "name": "Undercommon",
+                    "url": "/api/languages/undercommon"
+                }
+            ]
+        },
+        "starting_equipment": [
+            {
+                "equipment": {
+                    "index": "clothes-travelers",
+                    "name": "Clothes, traveler's",
+                    "url": "/api/equipment/clothes-travelers"
+                },
+                "quantity": 1
+            },
+            {
+                "equipment": {
+                    "index": "pouch",
+                    "name": "Pouch",
+                    "url": "/api/equipment/pouch"
+                },
+                "quantity": 1
+            },
+            {
+                "equipment": {
+                    "index": "book",
+                    "name": "Book",
+                    "url": "/api/equipment/book"
+                },
+                "quantity": 1
+            }
+        ],
+        "starting_currency": {
+            "quantity": 10,
+            "unit": "gp"
+        },
+        "feature": {
+            "name": "Escape Route",
+            "desc": [
+                "With years of practice, you've learned to always make note of the best way out of a situation. Your intuition can help you locate the best exit from any location you're in, and you have advantage on Investigation checks relating to finding an exit."
             ]
         }
     }
