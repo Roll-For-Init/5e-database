@@ -453,13 +453,68 @@
             {
                 "choose": 1,
                 "type": "tool proficiencies",
-                "from": {
-                    "equipment_category": {
-                        "index": "tools",
-                        "name": "tools",
-                        "url": "/api/equipment-categories/tools"
+                "from": [
+                    {
+                        "index": "dice-set",
+                        "name": "Dice set",
+                        "url": "/api/proficiencies/dice-set"
+                    },
+                    {
+                        "index": "playing-card-set",
+                        "name": "Playing card set",
+                        "url": "/api/proficiencies/playing-card-set"
+                    },
+                    {
+                        "index": "bagpipes",
+                        "name": "Bagpipes",
+                        "url": "/api/proficiencies/bagpipes"
+                    },
+                    {
+                        "index": "drum",
+                        "name": "Drum",
+                        "url": "/api/proficiencies/drum"
+                    },
+                    {
+                        "index": "dulcimer",
+                        "name": "Dulcimer",
+                        "url": "/api/proficiencies/dulcimer"
+                    },
+                    {
+                        "index": "flute",
+                        "name": "Flute",
+                        "url": "/api/proficiencies/flute"
+                    },
+                    {
+                        "index": "lute",
+                        "name": "Lute",
+                        "url": "/api/proficiencies/lute"
+                    },
+                    {
+                        "index": "lyre",
+                        "name": "Lyre",
+                        "url": "/api/proficiencies/lyre"
+                    },
+                    {
+                        "index": "horn",
+                        "name": "Horn",
+                        "url": "/api/proficiencies/horn"
+                    },
+                    {
+                        "index": "pan-flute",
+                        "name": "Pan flute",
+                        "url": "/api/proficiencies/pan-flute"
+                    },
+                    {
+                        "index": "shawm",
+                        "name": "Shawm",
+                        "url": "/api/proficiencies/shawm"
+                    },
+                    {
+                        "index": "viol",
+                        "name": "Viol",
+                        "url": "/api/proficiencies/viol"
                     }
-                }
+                ]
             }
         ],
         "language_options": {
@@ -628,13 +683,23 @@
             {
                 "choose": 1,
                 "type": "tool proficiencies",
-                "from": {
-                    "equipment_category": {
-                        "index": "tools",
-                        "name": "tools",
-                        "url": "/api/equipment-categories/tools"
+                "from": [
+                    {
+                        "index": "disguise-kit",
+                        "name": "Disguise Kit",
+                        "url": "/api/proficiencies/disguise-kit"
+                    },
+                    {
+                        "index": "forgery-kit",
+                        "name": "Forgery Kit",
+                        "url": "/api/proficiencies/forgery-kit"
+                    },
+                    {
+                        "index": "poisoners-kit",
+                        "name": "Poisoner's Kit",
+                        "url": "/api/proficiencies/poisoners-kit"
                     }
-                }
+                ]
             }
         ],
         "language_options": {
@@ -719,18 +784,44 @@
                 "type": "equipment",
                 "from": [
                     {
-                        "equipment_category": {
-                            "index": "holy-symbols",
-                            "name": "Holy Symbols",
-                            "url": "/api/equipment-categories/holy-symbols"
-                        }
+                        "index": "amulet",
+                        "name": "Amulet",
+                        "url": "/api/equipment/amulet"
                     },
                     {
-                        "equipment_category": {
-                            "index": "arcane-foci",
-                            "name": "Arcane Foci",
-                            "url": "/api/equipment-categories/arcane-foci"
-                        }
+                        "index": "emblem",
+                        "name": "Emblem",
+                        "url": "/api/equipment/emblem"
+                    },
+                    {
+                        "index": "reliquary",
+                        "name": "Reliquary",
+                        "url": "/api/equipment/reliquary"
+                    },
+                    {
+                        "index": "crystal",
+                        "name": "Crystal",
+                        "url": "/api/equipment/crystal"
+                    },
+                    {
+                        "index": "orb",
+                        "name": "Orb",
+                        "url": "/api/equipment/orb"
+                    },
+                    {
+                        "index": "rod",
+                        "name": "Rod",
+                        "url": "/api/equipment/rod"
+                    },
+                    {
+                        "index": "staff",
+                        "name": "Staff",
+                        "url": "/api/equipment/staff"
+                    },
+                    {
+                        "index": "wand",
+                        "name": "Wand",
+                        "url": "/api/equipment/wand"
                     }
                 ]
             }
@@ -812,18 +903,64 @@
                 "type": "tool proficiencies",
                 "from": [
                     {
-                        "equipment_category": {
-                            "index": "gaming-sets",
-                            "name": "gaming sets",
-                            "url": "/api/equipment-categories/gaming-sets"
-                        }
+                        "index": "dice-set",
+                        "name": "Dice set",
+                        "url": "/api/proficiencies/dice-set"
                     },
                     {
-                        "equipment_category": {
-                            "index": "musical-instruments",
-                            "name": "musical instruments",
-                            "url": "/api/equipment-categories/musical-instruments"
-                        }
+                        "index": "playing-card-set",
+                        "name": "Playing card set",
+                        "url": "/api/proficiencies/playing-card-set"
+                    },
+                    {
+                        "index": "bagpipes",
+                        "name": "Bagpipes",
+                        "url": "/api/proficiencies/bagpipes"
+                    },
+                    {
+                        "index": "drum",
+                        "name": "Drum",
+                        "url": "/api/proficiencies/drum"
+                    },
+                    {
+                        "index": "dulcimer",
+                        "name": "Dulcimer",
+                        "url": "/api/proficiencies/dulcimer"
+                    },
+                    {
+                        "index": "flute",
+                        "name": "Flute",
+                        "url": "/api/proficiencies/flute"
+                    },
+                    {
+                        "index": "lute",
+                        "name": "Lute",
+                        "url": "/api/proficiencies/lute"
+                    },
+                    {
+                        "index": "lyre",
+                        "name": "Lyre",
+                        "url": "/api/proficiencies/lyre"
+                    },
+                    {
+                        "index": "horn",
+                        "name": "Horn",
+                        "url": "/api/proficiencies/horn"
+                    },
+                    {
+                        "index": "pan-flute",
+                        "name": "Pan flute",
+                        "url": "/api/proficiencies/pan-flute"
+                    },
+                    {
+                        "index": "shawm",
+                        "name": "Shawm",
+                        "url": "/api/proficiencies/shawm"
+                    },
+                    {
+                        "index": "viol",
+                        "name": "Viol",
+                        "url": "/api/proficiencies/viol"
                     }
                 ]
             }
