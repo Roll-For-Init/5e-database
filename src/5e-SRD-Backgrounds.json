@@ -1253,7 +1253,7 @@
             {
                 "equipment": {
                     "index": "book",
-                    "name": "book",
+                    "name": "Book",
                     "url": "/api/equipment/book"
                 },
                 "quantity": 1
