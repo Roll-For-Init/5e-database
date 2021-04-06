@@ -140,9 +140,23 @@
             }
         ],
         "other_equipment": [
-            "A prayer book",
-            "5 sticks of incense",
-            "Vestments"
+            {
+                "equipment": {
+                    "name": "A prayer book"
+                },
+                "quantity": 1
+            },
+            {
+                "equipment": {
+                    "name": "5 sticks of incense"
+                },
+                "quantity": 1
+            },{
+                "equipment": {
+                    "name": "Vestments"
+                },
+                "quantity": 1
+            }
         ],
         "feature": {
             "name": "Shelter of the Faithful",
@@ -626,7 +640,12 @@
             "unit": "gp"
         },
         "other_equipment": [
-            "A trinket from your past life"
+            {
+                "equipment": {
+                    "name": "A trinket from your past life"
+                },
+                "quantity": 1
+            }
         ],
         "feature": {
             "name": "Déjà Vu",
@@ -1082,8 +1101,18 @@
             "unit": "gp"
         },
         "other_equipment": [
-            "A children's doll",
-            "An antique spoon with a sharpened edge"
+            {
+                "equipment": {
+                    "name": "A children's doll"
+                },
+                "quantity": 1
+            },
+            {
+                "equipment": {
+                    "name": "An antique spoon with a sharpened edge"
+                },
+                "quantity": 1
+            }
         ],
         "feature": {
             "name": "Mania",
