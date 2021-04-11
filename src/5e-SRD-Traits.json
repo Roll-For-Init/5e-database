@@ -331,7 +331,7 @@
     "subraces": [],
     "name": "Brave",
     "desc": [
-      "You have advantage on saving throw against being frightened."
+      "You have advantage on saving throws against being frightened."
     ],
     "proficiencies": [],
     "url": "/api/traits/brave"
